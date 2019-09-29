@@ -178,23 +178,37 @@ a.nav-link {
 .nav-icon{
     width: 26px;
     margin: 3px;
+    cursor: pointer;
 }
-.nav-icon div,
-.nav-icon:before,
-.nav-icon:after{
-    height: 4px;
+.nav-icon div{
+    height: 6px;
     border-radius: 3px;
     content:'';
-    background-color: black;
-    margin: 5px 0;
+    border-top: 2px solid #42e522;
+    background-color: #822a03;
+    margin: 2px 0;
     display: block;
-
 }
-.nav-icon:hover:before,
-.nav-icon:hover:after,
-.nav-icon:hover div
+.nav-icon:before,
+.nav-icon:after{
+    height: 8px;
+    content:'';
+    background-color: #fca13f;
+    display: block;
+}
+.nav-icon:after{
+    border-radius: 3px;
+}
+.nav-icon:before{
+    border-radius: 6px 6px 2px 2px;  
+}
+.nav-icon:hover:before
  {
-    background-color: grey;
+    transform: translateY(-2px);
+}
+.nav-icon:hover:after
+ {
+    transform: translateY(2px);
 }
 .navbar-toggler {
     padding: .25rem .75rem;
@@ -228,7 +242,6 @@ footer > p {
     margin-bottom: 15px;
     font-weight: 700;
 }
-
 /********** ABOUT ME ****************/
 .me{
     float:left;
@@ -246,7 +259,6 @@ footer > p {
     width: 100%;
     height: auto;
 }
-
 .overlay-image .text {
     color: #fff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -294,7 +306,6 @@ footer > p {
 }
 .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
-    /* flex-direction: row; */
     display: inline;
     float: right !important;
     text-align: right;
@@ -313,25 +324,22 @@ li.nav-item {
     margin-top: 6px;
     margin-bottom: 6px;
 }
-.logo-top{
-    padding: 15px;
-    font-size: 1.4rem;
-}
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
 .navbar-collapse {
-    background-color:#dcdcdc;
+    background-color:#c7512e;
 }
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:active:hover{
     color: #fff;
 }
+a.nav-link {
+    color: white;
+}
+a.nav-link.active {
+    color: #05e08f !important;
+}
 .nav-link:hover,
 .nav-link:active:hover{
-    background-color:#333;
+    background-color:#e68e0b;
 }
 .navbar-nav li{
     width: 80%;
@@ -342,6 +350,10 @@ li.nav-item {
 }
 .navbar-toggler-icon {
     height: auto;
+}
+.logo-top{
+    padding: 15px;
+    font-size: 1.4rem;
 }
 }
 
