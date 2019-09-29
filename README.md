@@ -2,7 +2,7 @@
 
 ## Description
 
->Here is an improved version of the previous portfolio site for its responsiveness using Bootstrap. It does not contain real portfolio work as it serves as an exercise for a better one to come.
+>Here is an improved version of the previous portfolio site for its responsiveness using Bootstrap. It does not contain real portfolio work as it serves as an exercise for a better one to come. Yummy!
 
 ## Technology and Skills
 
