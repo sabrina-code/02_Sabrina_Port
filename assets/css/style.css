@@ -223,6 +223,7 @@ a.nav-link {
 /************* FOOTER *************/
   footer{
     height:60px;
+    width:100%;
     background-color: #666;
     color: #e2e2e2;
     text-align: center;
