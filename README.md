@@ -1,8 +1,8 @@
-# Sabrina Fan Web Developer Portfolio Site- Responsive
+# Sabrina Fan Portfolio Site- Responsive
 
 ## Description
 
->Here is an improved version of the previous portfolio site for its responsiveness using Bootstrap. It does not contain real portfolio work as it serves as an exercise for a better one to come. Yummy!
+>Here is an improved version of the previous portfolio site for its responsiveness using Bootstrap. It does not contain real portfolio work as it serves as an exercise for a better one to come. 
 
 ## Technology and Skills
 
